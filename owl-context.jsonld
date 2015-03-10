@@ -1,0 +1,102 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "comment": "rdfs:comment",
+    "isa": {
+      "@id":"rdfs:subClassOf",
+      "@type":"@id"
+    },
+    "Property": "rdfs:Property",
+    "Relation": "owl:ObjectProperty",
+    "Attribute": "owl:DatatypeProperty",
+    "AnnotationProperty": "owl:AnnotationProperty",
+    "Transitive": "owl:TransitiveProperty",
+    "Reflexive": "owl:ReflexiveProperty",
+    "Irreflexive": "owl:IrreflexiveProperty",
+    "Symmetric": "owl:SymmetricProperty",
+    "Asymmetric": "owl:AsymmetricProperty",
+    "Functional": "owl:FunctionalProperty",
+    "InverseFunctional": "owl:InverseFunctionalProperty",
+    "Class": "owl:Class",
+    "Restriction": "owl:Restriction",
+    "AllDifferent": "owl:AllDifferent",
+    "Ontology": "owl:Ontology",
+    "imports": {
+      "@id": "owl:imports",
+      "@type": "@id"
+    },
+    "value":"owl:hasValue",
+    "distinct": {
+      "@id": "owl:distinctMembers",
+      "@type": "@id"
+    },
+    "distinct": {
+      "@id": "owl:distinctMembers",
+      "@type": "@id"
+    },
+    "definedBy": {
+      "@id": "rdfs:isDefinedBy",
+      "@type": "@id"
+    },
+    "subPropertyOf": {
+      "@id": "rdfs:subPropertyOf",
+      "@type": "@id"
+    },
+    "range": {
+      "@id": "rdfs:range",
+      "@type": "@id"
+    },
+    "domain": {
+      "@id": "rdfs:domain",
+      "@type": "@id"
+    },
+    "seeAlso": {
+      "@id": "rdfs:seeAlso",
+      "@type": "@id"
+    },
+    "label": {
+      "@id": "rdfs:label"
+    },
+    "not" : {
+      "@id":"owl:disjointWith",
+      "@type":"@id"
+    },
+    "complement" : {
+      "@id":"owl:complementOf",
+      "@type":"@id"
+    },
+    "some" : {
+      "@id":"owl:someValuesFrom",
+      "@type":"@id"
+    },
+    "only" : {
+      "@id":"owl:allValuesFrom",
+      "@type":"@id"
+    },
+    "on" : {
+      "@id":"owl:onProperty",
+      "@type":"@id"
+    },
+    "inverse" : {
+      "@id":"owl:inverseOf",
+      "@type":"@id"
+    },
+    "equivalent" : {
+      "@id":"owl:equivalentClass",
+      "@type":"@id"
+    },
+    "and" : {
+      "@id":"owl:intersectionOf",
+      "@type":"@id",
+      "@container":"@list"
+    },
+    "or" : {
+      "@id":"owl:unionOf",
+      "@type":"@id",
+      "@container":"@list"
+    }
+  }
+}
