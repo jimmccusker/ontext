@@ -98,6 +98,11 @@
       "@type":"@id",
       "@container":"@list"
     },
+    "key" : {
+      "@id":"owl:hasKey",
+      "@type":"@id",
+      "@container":"@list"
+    },
     "in": {
       "@id": "owl:oneOf",
       "@type": "@id",
@@ -111,9 +116,29 @@
       "@id": "owl:maxCardinality",
       "@type": "xsd:nonNegativeInteger"
     },
+    "minq": {
+      "@id": "owl:minQualifiedCardinality",
+      "@type": "xsd:nonNegativeInteger"
+    },
+    "maxq": {
+      "@id": "owl:maxQualifiedCardinality",
+      "@type": "xsd:nonNegativeInteger"
+    },
+    "exactq": {
+      "@id": "owl:qualifiedCardinality",
+      "@type": "xsd:nonNegativeInteger"
+    },
     "exactly": {
       "@id": "owl:cardinality",
       "@type": "xsd:nonNegativeInteger"
+    },
+    "onClass": {
+      "@id": "owl:onClass",
+      "@type": "@id"
+    },
+    "hasSelf": {
+      "@id": "owl:hasSelf",
+      "@type": "xsd:boolean"
     }
   }
 }
