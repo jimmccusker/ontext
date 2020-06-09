@@ -98,6 +98,11 @@
       "@type":"@id",
       "@container":"@list"
     },
+    "du": {
+      "@id" : "owl:disjointUnionOf",
+      "@type" : "@id",
+      "@container" : "@list"
+    },
     "key" : {
       "@id":"owl:hasKey",
       "@type":"@id",
